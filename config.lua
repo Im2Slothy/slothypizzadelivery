@@ -13,7 +13,7 @@ Config.RewardMultiplier = { -- How much money do you want to give them per deliv
     max = 50
 }
 
-config.DeliveryJob = 'pizzathis' -- This is the job that will be able to target the AI when active as the job and on duty. 
+Config.DeliveryJob = 'pizzathis' -- This is the job that will be able to target the AI when active as the job and on duty. 
 
 Config.PEDModel = 's_m_y_chef_01' -- PED Model we'll be using for the target
 Config.PEDSpawn = {x = 537.12, y = 102.00, z = 95.56, heading = 160.63} -- PED spawn coordinates and heading
