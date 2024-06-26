@@ -125,7 +125,7 @@ function EndMission()
         currentBlip = nil
     end
 
-    QBCore.Functions.Notify('Mission ended', 'success')
+    QBCore.Functions.Notify('Mission ended with ' .. dropCount .. ' drops collected', 'primary'
 end
 
 -- ----- Event Handlers ----- --
