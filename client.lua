@@ -111,21 +111,21 @@ end
 
 -- Function to End Mission
 function EndMission()
-    missionActive = false
-    currentDrop = nil
-    dropCount = 0
+    if currentBlip then
+        RemoveBlip(currentBlip)
+        currentBlip = nil
+    end
 
     if DoesEntityExist(spawnedDeliveryVehicle) then
         DeleteVehicle(spawnedDeliveryVehicle)
         spawnedDeliveryVehicle = nil
     end
 
-    if currentBlip then
-        RemoveBlip(currentBlip)
-        currentBlip = nil
-    end
-
     QBCore.Functions.Notify('Mission ended with ' .. dropCount .. ' drops collected', 'primary')
+
+    missionActive = false
+    currentDrop = nil
+    dropCount = 0
 end
 
 -- ----- Event Handlers ----- --
