@@ -5,9 +5,9 @@ Pizza Delivery script for QBCore framework. Players can start delivery missions,
 ## Dependencies
 
 This script requires the following resources:
-- [QBCore Framework](https://github.com/qbcore-framework/qb-core)
+- QBCore Framework
 - qb-target
-- [LegacyFuel](https://github.com/LegacyFuel/LegacyFuel)
+- LegacyFuel
 
 ## Installation
 
