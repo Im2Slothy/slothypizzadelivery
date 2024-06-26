@@ -15,17 +15,17 @@ This script requires the following resources:
 
 Clone or download this repository and place it in your `resources` folder.
 
-\`\`\`bash
-git clone https://github.com/Im2Slothy/fivempizzadelivery.git
-\`\`\`
+
+**git clone https://github.com/Im2Slothy/fivempizzadelivery.git**
+
 
 ### 2. Add to Server Configuration
 
 Add the following line to your `server.cfg` to ensure the script starts when your server starts.
 
-\`\`\`plaintext
-ensure slothypizzadelivery
-\`\`\`
+
+**ensure slothypizzadelivery**
+
 
 ### 3. Start the Server
 
