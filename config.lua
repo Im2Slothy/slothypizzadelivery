@@ -8,7 +8,7 @@ Config.deliverylocations = { -- locations where the user will have to deliver pi
     vector3(501.96, 112.99, 96.64), 
 }
 
-Config.RewardMultiplier = { -- How much money do you want to give them per delivery?
+Config.RewardMultiplier = { -- How much money do you want to give them per delivery? Random number between min and max
     min = 25,
     max = 50
 }
