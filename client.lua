@@ -6,7 +6,7 @@
         -- DO NOT TOUCH THIS FILE OR YOU /WILL/ MESS SOMETHING UP! EDIT THE CONFIG.LUA --
 ----------------------------------------------------------------------------------------------
 
-ocal QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
 local missionActive = false
 local dropCount = 0
 local currentDrop = nil
